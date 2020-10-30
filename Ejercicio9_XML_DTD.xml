@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE numeros [
+ <!ELEMENT numeros (numero*)>
+ <!ELEMENT numero (#PCDATA)>
+]>
+<numeros>
+ <numero>25</numero>
+</numeros> 
+<!--DTD Corregido-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE numeros [
+ <!ELEMENT numeros (#PCDATA)>
+]>
+<numeros>"numero 5"</numeros> 
+<!--XML Corregido-->

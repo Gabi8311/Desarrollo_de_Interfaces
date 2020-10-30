@@ -1,0 +1,22 @@
+<!DOCTYPE cartelera[
+    <!ELEMENT cartelera(pelicula*)>
+    <!ELEMENT pelicula (titulo,titulo_original?,nacionalidad,genero,clasificacion?,sin_clasificar?,sinopsis,director+,reparto,web?,cartel?)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT titulo_original (#PCDATA)>
+    <!ELEMENT nacionalidad (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+    <!ELEMENT clasificacion (#PCDATA)>
+    <!ELEMENT sin_clasificar EMPTY>
+    <!ELEMENT sinopsis (#PCDATA)>
+    <!ELEMENT director (#PCDATA)>
+    <!ELEMENT reparto (actor*)>
+    <!ELEMENT actor (#PCDATA)>
+    <!ELEMENT web (#PCDATA)>
+    <!ELEMENT cartel (#PCDATA)>
+   
+    <!ATTLIST pelicula codigo CDATA #REQUIRED UNIQUE>
+    <!ATTLIST pelicula duracion CDATA #REQUIRED >
+    <!ATTLIST pelicula año CDATA #REQUIRED >
+    <!ATTLIST clasificacion edad (tp | +7 | +12 | +16 | +18) CDATA #REQUIRED >
+    <!ATTLIST otros cod CDATA #REQUIRED >
+]>

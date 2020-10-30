@@ -1,0 +1,73 @@
+<!--<!DOCTYPE concesionario
+    <!ELEMENT concesionario(coche*)>
+    <!ELEMENT coche (matricula,marca,modelo,color,precioDeVenta,cliente,revisiones)>
+    <!ELEMENT matricula (#PCDATA) UNIQUE>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT precioDeVenta (#PCDATA)>
+    <!ELEMENT cliente (NIF,nombre,direccion,ciudad,telefono)>
+    <!ELEMENT NIF (#PCDATA) UNIQUE>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT revisiones (filtro,aceite,frenos,otros)>
+    <!ELEMENT filtro (#PCDATA)>
+    <!ELEMENT aceite (#PCDATA)>
+    <!ELEMENT frenos (#PCDATA)>
+    <!ELEMENT otros (#PCDATA)>
+    <!ATTLIST coche id CDATA #REQUIRED >
+    <!ATTLIST filtro cod CDATA #REQUIRED >
+    <!ATTLIST aceite cod CDATA #REQUIRED >
+    <!ATTLIST frenos cod CDATA #REQUIRED >
+    <!ATTLIST otros cod CDATA #REQUIRED >
+]>-->
+
+<concesionario>
+    
+    <coche id="12">
+        <matricula>4545-BGH</matricula>
+        <marca>SEAT</marca>
+        <modelo>IBIZA</modelo>
+        <color>BLANCO</color>
+        <precioDeVenta>5.000€</precioDeVenta>
+        <cliente id="7">
+           <NIF>51515134-K</NIF>
+           <nombre>Francisco Alegre Romero</nombre>
+           <direccion>Calle de los Olivos Nº3 Bajo A</direccion>
+           <ciudad>Teruel</ciudad>
+           <telefono>906 555 555</telefono>
+        </cliente>
+        <revisiones>
+           <filtro cod="0">NO</filtro>
+           <aceite cod="1">SI</aceite>
+           <frenos cod="0">NO</frenos>
+           <otros cod="2">SI</otros>
+        </revisiones>
+    </coche>
+   
+    
+    <coche id="9">
+        <matricula>5678-LRG</matricula>
+        <marca>TOYOTA</marca>
+        <modelo>YARIS</modelo>
+        <color>ROJO</color>
+        <precioDeVenta>11.000€</precioDeVenta>
+        <cliente id="3">
+           <NIF>51853675-U</NIF>
+           <nombre>Ignacio Arrimadas Sancho</nombre>
+           <direccion>Calle de las Flores Nº47 7ºC</direccion>
+           <ciudad>Madrid</ciudad>
+           <telefono>902 333 333</telefono>
+        </cliente>
+        <revisiones>
+           <filtro cod="0">NO</filtro>
+           <aceite cod="0">NO</aceite>
+           <frenos cod="0">NO</frenos>
+           <otros cod="0">NO</otros>
+        </revisiones>
+    </coche>
+   
+    
+</concesionario>

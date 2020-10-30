@@ -1,0 +1,64 @@
+
+<!--<!DOCTYPE cdsOferta[
+    <!ELEMENT cdsOferta(cd+)>
+    <!ELEMENT cd (titulo,artista+,pais,compañiaDiscografica?,precio,añoDePublicacion)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT artista (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT compañiaDiscografica (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT añoDePublicacion (#PCDATA)>
+    <!ATTLIST cd id NMTOKEN #REQUIRED >
+]>-->
+
+<cdsOferta>
+    <cd id="1">
+        <titulo>Still got the blues</titulo>
+        <artista>Gary Moore</artista> 
+        <pais>UK</pais>
+        <compañiaDiscografica>Virgin Records</compañiaDiscografica>
+        <precio>10.20</precio>
+        <añoDePublicacion>1990</añoDePublicacion>
+    </cd>
+    <cd id="2">
+        <titulo>One night only</titulo>   
+        <artista>Bee Gees</artista>
+        <pais>UK</pais>
+        <compañiaDiscografica>Polydoor</compañiaDiscografica>
+        <precio>10.90</precio>
+        <añoDePublicacion>1998</añoDePublicacion>
+    </cd>
+    <cd id="3">
+        <titulo>When a man loves a woman</titulo> 
+        <artista>Percy Sledge</artista>
+        <pais>USA</pais>
+        <compañiaDiscografica>Atlantic</compañiaDiscografica>
+        <precio>8.70</precio>
+        <añoDePublicacion>1987</añoDePublicacion>
+    </cd>
+    <cd id="4">
+        <titulo>Big Wllie Style</titulo> 
+        <artista>Will Smith</artista>
+        <pais>USA</pais>
+        <compañiaDiscografica>Columbia</compañiaDiscografica>
+        <precio>9.90</precio>
+        <añoDePublicacion>1997</añoDePublicacion>
+    </cd>
+    <cd id="5">
+        <titulo>La canción de Juan Perro</titulo>
+        <artista>Radio Futura</artista>
+        <pais>ESPAÑA</pais>  
+        <compañiaDiscografica>Sony Music-Ariola</compañiaDiscografica> 
+        <precio>9.90</precio>
+        <añoDePublicacion>1987</añoDePublicacion>
+    </cd>
+    <cd id="6">
+        <titulo>The dock of the bay</titulo> 
+        <artista>Otis Reading</artista> 
+        <pais>USA</pais>
+        <compañiaDiscografica>Atlantic</compañiaDiscografica> 
+        <precio>7.90</precio>
+        <añoDePublicacion>1987</añoDePublicacion>
+    </cd>
+    
+</cdsOferta>

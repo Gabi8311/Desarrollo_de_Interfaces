@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<concesionario>
+    <coche>
+        <marcas>Renault</marcas>
+        <modelos>Megane</modelos>
+        <cilindradas>1.5</cilindradas>
+    </coche>
+    <coche>
+        <marcas>Seat</marcas>
+        <modelos>León</modelos>
+        <cilindradas>1.6</cilindradas>
+    </coche>
+    <coche>
+        <marcas>Suzuki</marcas>
+        <modelos>Vitara</modelos>
+        <cilindradas>1.9</cilindradas>
+    </coche>
+    <coche>
+        <marcas>Suzuki</marcas>
+        <modelos>Vitara</modelos>
+        <cilindradas>1.9</cilindradas>
+    </coche>
+    <coche>
+        <marcas>Suzuki</marcas>
+        <modelos>Vitara</modelos>
+        <cilindradas>1.9</cilindradas>
+    </coche>
+</concesionario>

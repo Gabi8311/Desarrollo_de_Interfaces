@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<miConcesionario>
+    <coche>
+        <matricula>4545-BGH</matricula>
+        <marca>Seat</marca>
+        <modelo>Ibiza</modelo>
+        <color>Blanco</color>
+        <precioDeVentas>5.000€</precioDeVentas>
+        <cliente>
+            <NIF>51515134-K</NIF>
+            <nombre>Francisco Alegre Romero</nombre>
+            <direccion>Calle de los Olivos Nº3 Bajo A</direccion>
+            <ciudad>Teruel</ciudad>
+            <telefono>906 555 555</telefono>
+        </cliente>
+        <revisiones>
+            <filtro>NO</filtro>
+            <aceite>SI</aceite>
+            <frenos>NO</frenos>
+            <otros>SI</otros>
+        </revisiones>
+    </coche>
+    <coche>
+        <matricula>5678-LRG</matricula>
+        <marca>Toyota</marca>
+        <modelo>Yaris</modelo>
+        <color>Rojo</color>
+        <precioDeVentas>11.000€</precioDeVentas>
+        <cliente>
+            <NIF>51853675-U</NIF>
+            <nombre>Ignacio Arrimadas Sancho</nombre>
+            <direccion>Calle de las Flores Nº47 7ºC</direccion>
+            <ciudad>Madrid</ciudad>
+            <telefono>902 333 333</telefono>
+        </cliente>
+        <revisiones>
+            <filtro>NO</filtro>
+            <aceite>NO</aceite>
+            <frenos>NO</frenos>
+            <otros>NO</otros>
+        </revisiones>
+    </coche>
+</miConcesionario>
